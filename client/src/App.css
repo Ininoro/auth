@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital@0;1&display=swap');
+
+html{
+  background-image: url('../public/wallwin.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main {
+  background-color: #0000007a;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
+}
+
+.div_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+input[type=email], [type=password], [type=text], [type=date], [type=file] {
+  background-color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 15px;
+  width: 450px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  color: grey;
+}
+
+input {outline:none;}
+
+label {
+  cursor: pointer;
+  background-color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 15px;
+  width: 450px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  color: rgb(3, 3, 3);
+  display: flex;
+  align-items: center;
+}
+
+#file {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+button {
+  border: 1px solid black;
+  background-color: white;
+  padding: 18px 65px;
+  border-radius: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
+}
+
+button:hover{
+  color: white;
+  background-color: black;
+}
+
+input[type=submit] {
+  background-color: white;
+  padding: 18px 65px;
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+.footer_a {
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer_a a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.main_profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main_profile a {
+  gap: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.logout {
+  color: #ff0062;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.My_book {
+  background: white;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  border-radius: 15px;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 450px;
+}
+
+.date_My_book {
+  color: #000000;
+  background: white;
+}
+
+.status_My_book {
+  color: #000000;
+  background: white;
+}
+
+img {
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+.status_request {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+input[type=button] {
+  background: transparent;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+#accept {
+  padding: 0;
+  margin: 0;
+  color: #36ac00;
+  background: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+#not_accept {
+  padding: 0;
+  margin: 0;
+  color: #ff0062;
+  background: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
